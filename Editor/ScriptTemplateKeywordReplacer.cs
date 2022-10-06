@@ -20,7 +20,7 @@ namespace SoftBoiledGames.MonobehaviourTemplates
 
             string actualFilePath = $"{Path.GetDirectoryName(metaFilePath)}{Path.DirectorySeparatorChar}{fileName}";
             string content = File.ReadAllText(actualFilePath);
-            string newcontent = content.Replace("#PROJECTNAME#", PlayerSettings.productName);
+            string newcontent = content.Replace("#PROJECTNAME#", $"{PlayerSettings.companyName}.{PlayerSettings.productName}");
 
             if (content != newcontent)
             {
