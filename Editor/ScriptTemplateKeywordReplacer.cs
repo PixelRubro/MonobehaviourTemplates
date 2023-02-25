@@ -1,7 +1,8 @@
-﻿using UnityEditor;
+﻿#if UNITY_EDITOR
+using UnityEditor;
 using System.IO;
 
-namespace SoftBoiledGames.MonobehaviourTemplates
+namespace PixelSpark.MonobehaviourTemplates
 {
     /// <summary>
     /// Author: Alexey Demonov
@@ -30,3 +31,4 @@ namespace SoftBoiledGames.MonobehaviourTemplates
         }
     }
 }
+#endif
