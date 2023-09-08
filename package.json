@@ -1,11 +1,11 @@
 {
-  "name": "com.pixelsparkstudio.monobehaviourtemplates",
+  "name": "com.vermillionvanguard.monobehaviourtemplates",
   "displayName": "Monobehaviour Templates",
   "description": "Templates to replace Unity's default template for new C# scripts.",
   "version": "0.0.1",
   "unity": "2019.4",
   "license": "MIT",
   "author": {
-    "name": "Pixel Spark Studio"
+    "name": "Vermillion Vanguard Studio"
   }
 }

@@ -2,7 +2,7 @@
 using UnityEditor;
 using System.IO;
 
-namespace PixelSpark.MonobehaviourTemplates
+namespace VermillionVanguard.MonobehaviourTemplates
 {
     /// <summary>
     /// Author: Alexey Demonov
